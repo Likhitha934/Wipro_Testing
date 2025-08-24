@@ -1,0 +1,10 @@
+<suite name="LoginSuiteWithParameters">
+    <test name="LoginPageTest_with_XML_Parameters">
+        <!-- The <parameter> tag is used to pass key-value pairs to a test. -->
+        <parameter name="username" value="testUser"/>
+        <parameter name="password" value="secret123"/>
+        <classes>
+            <class name="com.example.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
